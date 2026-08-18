@@ -14,7 +14,7 @@ import {
 // import { socket } from "../socket/socket";
 import { DeviceRow } from "../components/DeviceRow";;
 import DeleteModal from "../components/DeleteModal";
-import AddDevice from "../components/addDevice";
+import AddDevice from "../components/AddDevice";
 // import ActionMenu from "../components/ActionMenu";
 import api from "../api/axios";
 import { usePermission } from "../hooks/usePermission";
