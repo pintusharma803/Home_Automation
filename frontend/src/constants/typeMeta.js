@@ -58,12 +58,12 @@ export const PAGE_SIZE = 10;
 export const SEARCH_DEBOUNCE_MS = 400;
 
 export const NAV_ITEMS = [
-  { label: "Dashboard", icon: Home, path:"/profile" },
-  { label: "Devices", icon: LayoutGrid,path:"/device" },
+  { label: "Dashboard", icon: Home, path:"/profile/dashboard" },
+  { label: "Devices", icon: LayoutGrid,path:"/profile/device" },
   { label: "Rooms", icon: DoorOpen, },
   { label: "Automation", icon: Workflow },
   { label: "Scenes", icon: ImageIcon },
-  { label: "Users", icon: Users, path:"/user" },
+  { label: "Users", icon: Users, path:"/profile/user" },
   { label: "Reports", icon: BarChart2 },
   { label: "Logs", icon: FileText },
   { label: "Settings", icon: Settings },
