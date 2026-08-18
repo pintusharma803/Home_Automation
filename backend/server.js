@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: "https://home-automation-ax1n.vercel.app",
     credentials: true, // allow cookies to be sent
   })
 );
