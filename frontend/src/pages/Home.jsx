@@ -13,7 +13,7 @@ export default function Home() {
   const handleLogin = () => {
     navigate('/login');
     if(isAuthenticated){
-      navigate('/dashboard');
+      navigate('/profile/dashboard');
     }
   }
 
